@@ -17,7 +17,7 @@ export const Pick = (props) => {
 
   return (
     <div
-      class={`w-44 h-44 rounded-full border-16 border-${color} bg-slate flex justify-center items-center`}
+      class={`w-44 h-44 z-10 rounded-full border-16 border-${color} bg-slate flex justify-center items-center`}
     >
       <img src={image} alt={type} class="w-16" />
     </div>
